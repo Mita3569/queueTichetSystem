@@ -1,6 +1,7 @@
 nav #navigation-bar {
   display: flex;
   gap: 16px;
+  background-color: #fef0dc;
   list-style: none;
   margin: 0;
   padding: 0;
