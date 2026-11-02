@@ -1,4 +1,4 @@
-nav ul {
+nav #navigation-bar {
   display: flex;
   gap: 16px;
   list-style: none;
