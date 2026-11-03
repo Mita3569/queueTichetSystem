@@ -48,7 +48,7 @@ nav#navigation-bar ul {
 nav#navigation-bar li {
   flex: 1;                 /* 各ブロックを同じ幅に */
   text-align: center;
-  background-color: #fff;
+  background-color: #f0e8d4;
   border: 1px solid #e0c9a6;
   border-radius: 6px;      /* 角を丸くする */
   white-space: nowrap;   /* 文字を折り返さない */
