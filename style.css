@@ -38,25 +38,19 @@ nav#navigation-bar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;                /* ブロック同士の隙間 */
   margin: 0;
   padding: 0;
   list-style: none;      /* 「・」を消す */
 }
 
-nav#navigation-bar ul {
-  display: flex;
-  gap: 8px;                /* ブロック同士の隙間 */
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 nav#navigation-bar li {
   flex: 1;                 /* 各ブロックを同じ幅に */
   text-align: center;
   background-color: #fff;
   border: 1px solid #e0c9a6;
-  border-radius: 6x;      /* 角を丸くする */
+  border-radius: 6px;      /* 角を丸くする */
 }
 
 nav#navigation-bar a {
