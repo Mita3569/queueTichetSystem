@@ -51,6 +51,7 @@ nav#navigation-bar li {
   background-color: #fff;
   border: 1px solid #e0c9a6;
   border-radius: 6px;      /* 角を丸くする */
+  white-space: nowrap;   /* 文字を折り返さない */
 }
 
 nav#navigation-bar a {
@@ -63,4 +64,21 @@ nav#navigation-bar a:hover {
   background-color: var(--main-color);
   color: #fff;
   border-radius: 6px;
+}
+
+/* ここから下は既存のCSSの続きに追加 */
+
+@media (max-width: 600px) {
+  nav#navigation-bar {
+    padding: 10px 8px;        /* 左右100px → 8px に */
+    font-size: 14px;
+  }
+
+  nav#navigation-bar ul {
+    gap: 4px;                 /* ブロック同士の隙間を小さく */
+  }
+
+  nav#navigation-bar a {
+    padding: 8px 4px;         /* 左右24px → 4px に */
+  }
 }
