@@ -28,33 +28,27 @@ a {
 
 nav#navigation-bar {
   font-weight: bold;
-  justify-content: space-between;
-  display: flex;
-  gap: 16px;
   background-color: #fef0dc;
-  list-style: none;
-  margin: 0;
   padding: 20px 100px;
   position: sticky;
   top: 0;
-  align-items: center;
 }
 
 nav#navigation-bar ul {
   display: flex;
-  gap: 8px;            /* ブロック同士の隙間 */
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none;      /* 「・」を消す */
 }
 
-nav#navigation-bar li {
-  background-color: #fff;
-  border: 1px solid #e0c9a6;
-  border-radius: 6px;
+/* 区切り線 */
+nav#navigation-bar li + li {
+  border-left: 1px solid #ccc;
 }
 
 nav#navigation-bar a {
   display: block;
-  padding: 8px 24px;
+  padding: 0 24px;
 }
