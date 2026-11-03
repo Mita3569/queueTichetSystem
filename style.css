@@ -87,6 +87,10 @@ nav#navigation-bar a:hover {
   justify-content: center;
 }
 
+.shop-container p {
+  border-bottom: 2px solid #6d3d09;
+}
+
 /* スマホ用のスタイル*/
 @media (max-width: 600px) {
   nav#navigation-bar {
