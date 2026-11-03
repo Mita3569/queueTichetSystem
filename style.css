@@ -2,6 +2,7 @@
   --main-color: #0066cc;
   --text-color: #333;
   --bg-color: #f5f5f5;
+  overflow-y: scroll;
 }
 
 *, *::before, *::after {
@@ -69,11 +70,11 @@ nav#navigation-bar a:hover {
 }
 
 .shop-status {
+  flex: 0 1 300px;
   background-color: #fff;
   border: 1px solid #e0c9a6;
   border-radius: 6px;
   padding: 16px;
-  margin-bottom: 16px;
 }
 
 .shop-container {
@@ -83,14 +84,6 @@ nav#navigation-bar a:hover {
   justify-content: center;
 }
 
-.shop-status {
-  flex: 0 1 300px;
-  background-color: #fff;
-  border: 1px solid #e0c9a6;
-  box-shadow: 0 2px 6px #8e8e8e;
-  border-radius: 6px;
-  padding: 16px;
-}
 /* スマホ用のスタイル*/
 @media (max-width: 600px) {
   nav#navigation-bar {
