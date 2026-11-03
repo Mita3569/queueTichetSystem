@@ -29,6 +29,7 @@ a {
 nav#navigation-bar {
   font-weight: bold;
   background-color: #fef0dc;
+  border-bottom: 2px solid #dbdbdb;
   padding: 20px 100px;
   position: sticky;
   top: 0;
@@ -38,7 +39,7 @@ nav#navigation-bar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8px;                /* ブロック同士の隙間 */
+  gap: 8px;
   margin: 0;
   padding: 0;
   list-style: none;      /* 「・」を消す */
@@ -46,12 +47,13 @@ nav#navigation-bar ul {
 
 
 nav#navigation-bar li {
-  flex: 1;                 /* 各ブロックを同じ幅に */
+  flex: 1;
   text-align: center;
   background-color: #f0e8d4;
   border: 1px solid #e0c9a6;
-  border-radius: 6px;      /* 角を丸くする */
-  white-space: nowrap;   /* 文字を折り返さない */
+  box-shadow: 0 2px 6px #8e8e8e;
+  border-radius: 6px;
+  white-space: nowrap;
 }
 
 nav#navigation-bar a {
@@ -71,36 +73,37 @@ nav#navigation-bar a:hover {
   border: 1px solid #e0c9a6;
   border-radius: 6px;
   padding: 16px;
-  margin-bottom: 16px;     /* ブロック同士の縦の間隔 */
+  margin-bottom: 16px;
 }
 
 .shop-container {
   display: flex;
-  flex-wrap: wrap;         /* 入りきらないブロックは次の行へ */
+  flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
 }
 
 .shop-status {
-  flex: 0 1 300px;         /* 最小250pxを保ち、余ったら広げる */
+  flex: 0 1 300px;
   background-color: #fff;
   border: 1px solid #e0c9a6;
+  box-shadow: 0 2px 6px #8e8e8e;
   border-radius: 6px;
   padding: 16px;
 }
 /* スマホ用のスタイル*/
 @media (max-width: 600px) {
   nav#navigation-bar {
-    padding: 10px 8px;        /* 左右100px → 8px に */
+    padding: 10px 8px;
     font-size: 14px;
   }
 
   nav#navigation-bar ul {
-    gap: 4px;                 /* ブロック同士の隙間を小さく */
+    gap: 4px;
   }
 
   nav#navigation-bar a {
-    padding: 8px 4px;         /* 左右24px → 4px に */
+    padding: 8px 4px;
   }
 }
 
