@@ -66,8 +66,28 @@ nav#navigation-bar a:hover {
   border-radius: 6px;
 }
 
-/* ここから下は既存のCSSの続きに追加 */
+.shop-status {
+  background-color: #fff;
+  border: 1px solid #e0c9a6;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;     /* ブロック同士の縦の間隔 */
+}
 
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;         /* 入りきらないブロックは次の行へ */
+  gap: 16px;
+}
+
+.shop-status {
+  flex: 1 1 250px;         /* 最小250pxを保ち、余ったら広げる */
+  background-color: #fff;
+  border: 1px solid #e0c9a6;
+  border-radius: 6px;
+  padding: 16px;
+}
+/* スマホ用のスタイル*/
 @media (max-width: 600px) {
   nav#navigation-bar {
     padding: 10px 8px;        /* 左右100px → 8px に */
@@ -82,3 +102,4 @@ nav#navigation-bar a:hover {
     padding: 8px 4px;         /* 左右24px → 4px に */
   }
 }
+
