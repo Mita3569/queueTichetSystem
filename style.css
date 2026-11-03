@@ -88,7 +88,7 @@ nav#navigation-bar a:hover {
 }
 
 .shop-container p {
-  border-bottom: 2px solid #6d3d09;
+  border-bottom: 2px dashed #6d3d09;
 }
 
 /* スマホ用のスタイル*/
