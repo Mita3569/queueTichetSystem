@@ -78,10 +78,11 @@ nav#navigation-bar a:hover {
   display: flex;
   flex-wrap: wrap;         /* 入りきらないブロックは次の行へ */
   gap: 16px;
+  justify-content: center;
 }
 
 .shop-status {
-  flex: 1 1 250px;         /* 最小250pxを保ち、余ったら広げる */
+  flex: 0 1 300px;         /* 最小250pxを保ち、余ったら広げる */
   background-color: #fff;
   border: 1px solid #e0c9a6;
   border-radius: 6px;
