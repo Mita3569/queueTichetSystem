@@ -43,12 +43,30 @@ nav#navigation-bar ul {
   list-style: none;      /* 「・」を消す */
 }
 
-/* 区切り線 */
-nav#navigation-bar li + li {
-  border-left: 1px solid #ccc;
+nav#navigation-bar ul {
+  display: flex;
+  gap: 8px;                /* ブロック同士の隙間 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav#navigation-bar li {
+  flex: 1;                 /* 各ブロックを同じ幅に */
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e0c9a6;
+  border-radius: 6x;      /* 角を丸くする */
 }
 
 nav#navigation-bar a {
   display: block;
-  padding: 0 24px;
+  padding: 10px 24px;
+  color: var(--text-color);
+}
+
+nav#navigation-bar a:hover {
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 6px;
 }
