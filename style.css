@@ -21,9 +21,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-h1#page-title {
-  background: linear-gradient(to right, #f5f5f5, #f5f5f5, #fff0dd, #ffd7a0, #ffa8ce, #f5f5f5);
-}
+
 a {
   color: var(--main-color);
   text-decoration: none;
@@ -31,7 +29,7 @@ a {
 
 nav#navigation-bar {
   font-weight: bold;
-  background-color: #fef0dc;
+  background-color: linear-gradient(to bottom, #fef0dc, #dbdbdb);
   border-bottom: 2px solid #dbdbdb;
   padding: 20px 100px;
   position: sticky;
