@@ -75,7 +75,7 @@ nav#navigation-bar a:hover {
   border-radius: 6px;
 }
 
-icon #menu-icon {
+img #menu-icon-img {
   display: inline-block;
   font-size: 32px;
   background: none;
@@ -84,7 +84,7 @@ icon #menu-icon {
   transition: transform 0.4s;   /* ふわっと回転させる */
 }
 
-icon #menu-icon.rotated {
+img #menu-icon-img.rotated {
   transform: rotate(180deg);    /* 回転後の角度 */
 }
 
