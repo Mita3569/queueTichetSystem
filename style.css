@@ -75,6 +75,19 @@ nav#navigation-bar a:hover {
   border-radius: 6px;
 }
 
+icon #menu-icon {
+  display: inline-block;
+  font-size: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.4s;   /* ふわっと回転させる */
+}
+
+icon #menu-icon.rotated {
+  transform: rotate(180deg);    /* 回転後の角度 */
+}
+
 .shop-status {
   flex: 0 1 300px;
   background-color: #fff;
